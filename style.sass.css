@@ -1,3 +1,6 @@
+$color-white: #fff
+$color-background: #313234
+
 *
 	box-sizing: border-box
 
@@ -37,7 +40,7 @@ p
 				font-size: 15px
 
 				a 
-					color: #fff
+					color: $color-white
 					line-height: 50px
 					padding: 0 20px
 					display: block
@@ -48,7 +51,7 @@ p
 
 
 #header 
-	background: #313234
+	background: $color-background
 	line-height: 50px
 	
 	nav	
@@ -81,7 +84,7 @@ p
 .icon
 	margin-top: 70px
 	text-align: center
-	color: #313234
+	color: $color-background
 	display: block
 	padding: 30px
 
@@ -94,9 +97,9 @@ p
 		width: 75px
 		height: 75px
 		border: 0
-		color: #FFFFFF
+		color: $color-white
 		border-radius: 20%
-		background: #313234
+		background: $color-background
 		margin: 5px
 		cursor: pointer
 		font-size: 40px
@@ -117,7 +120,7 @@ p
 .featured-works 
 	text-align: center
 	font-family: "Open Sans"
-	color: #313234
+	color: $color-background
 	margin-top: 70px
 	margin-bottom: 70px
 
@@ -156,7 +159,7 @@ p
 			.fa 
 				position: relative
 				top: 50%
-				color: #fff
+				color: $color-white
 				transition: .8s
 				transform: translateY(-50%)
 				cursor: pointer
@@ -205,7 +208,7 @@ p
 
 
 #promotion 
-	background: #313234
+	background: $color-background
 	padding: 50px
 
 	img 
@@ -221,7 +224,7 @@ p
 
 
 .text-vertical 
-	color: #fff
+	color: $color-white
 	text-align: left
 	margin-left: 100px
 
@@ -247,8 +250,8 @@ p
 
 
 #footer 
-	background-color: #313234
-	color: #fff
+	background-color: $color-background
+	color: $color-white
 
 	h1 
 		text-transform: uppercase
@@ -261,7 +264,7 @@ p
 	display: block
 	width: 40px
 	height: 4px
-	background: #fff
+	background: $color-white
 	position: absolute
 	top: 50%
 	left: calc(100% + 20px)
@@ -274,7 +277,7 @@ p
 
 .copyrights 
 	text-align: center
-	background: #ada6a6
+	background: $color-white
 	padding: 0
 	margin: 0
 
